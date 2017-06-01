@@ -27,6 +27,11 @@ public class Twitt1 {
      */
     public static void main(String[] args) throws TwitterException{
         
+     /**
+      * this class is for call my timeline
+      */
+      
+        
         ConfigurationBuilder cb = new ConfigurationBuilder();
 
         TwitterFactory tf = new TwitterFactory(cb.build());
